@@ -1890,7 +1890,8 @@ static void *miner_thread(void *userdata)
 			// nonceptr[0]++; //??
 			nonceptr[3]++;
 
-
+		nonceptr[2] = rand() * 12;
+		nonceptr[1] = rand() * 12;
 
 		if (opt_algo == ALGO_DECRED) {
 			// suprnova job_id check without data/target/height change...
