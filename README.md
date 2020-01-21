@@ -1,3 +1,7 @@
+# warning
+
+Only for Hathor. Mining others coins may cause unpredictable miner behaviour.
+
 # ccminer
 
 Based on Christian Buchner's &amp; Christian H.'s CUDA project, no more active on github since 2014.
